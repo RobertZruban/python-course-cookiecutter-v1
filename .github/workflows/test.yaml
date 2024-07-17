@@ -23,8 +23,8 @@ jobs:
           /bin/bash -x run.sh install
       - name: Configure git user
         run: |
-          git config --global user.email "test@test.com"
-          git config --global user.name "Eric Riddoch"
+          git config --global user.email "zrubanrobert@gmail.com"
+          git config --global user.name "RobertZruban"
       - name: Run tests
         run: |
           /bin/bash -x run.sh test
